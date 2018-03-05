@@ -1,0 +1,14 @@
+;
+; BIND reverse file for 0.168.192.in-addr.arpa
+;
+$TTL    604800
+@       IN      SOA     ns1.network.local. admin.network.local. (
+                                1       ; Serial
+                                3h      ; Refresh
+                                1h      ; Retry
+                                1w      ; Expire
+                                1h )    ; Minimum
+;
+@       IN      NS      ns1.network.local.
+
+38      IN      PTR     network.local.

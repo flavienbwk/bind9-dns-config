@@ -1,0 +1,18 @@
+;
+; BIND data for network.local
+;
+$TTL 3h
+@       IN      SOA     ns1.network.local. admin.network.local. (
+                        1       ; SERIAL
+                        3h      ; Refresh
+                        1h      ; Retry
+                        1w      ; Expire
+                        1h )    ; Minimum
+;
+@       IN      NS      ns1.network.local.
+
+network.local.		IN      A       192.168.0.2
+ns1			IN      A       192.168.0.2
+web1			IN      A	192.168.0.3
+gateway			IN      A	192.168.0.1
+manager			IN	A	192.168.0.2

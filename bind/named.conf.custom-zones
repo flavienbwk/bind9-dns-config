@@ -1,0 +1,9 @@
+zone "network.local" {
+	type master;
+	file "/etc/bind/zones/network.local.db";
+};
+
+zone "0.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/reverse/rev.0.168.192";
+};
