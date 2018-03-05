@@ -1,7 +1,7 @@
 # bind9-dns-config
 A simple example for local DNS calls.
 
-## Network configuration :
+## Network configuration :
 
 Network: 192.168.0.0/24
 
